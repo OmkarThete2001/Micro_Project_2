@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    background-color: #6F6AF7;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navBar .logo {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 5%;
+}
+
+.search-form input {
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    
+}
+
+.search-form button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.search-form .search-icon {
+    height: 15px;
+}
+
+.menu-icon {
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.main1{
+    display: flex;
+    padding-top: 2%;
+    gap: 4%;
+}
+
+.main1.comp_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1 .comp_img{
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.main1 .text_box{
+    width: 100%;
+    margin-right: 75px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 5%;
+    height: 500px;
+    color: #6F7373;
+    background-color: #E5D8FF;
+    border-radius: 2%;
+}
+
+.social_logo {
+    position: fixed;
+    top: 50%; 
+    transform: translateY(-50%);
+    right: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social_logo a {
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.social_logo a:hover {
+    transform: scale(1.1); 
+}
+
+.social_logo img {
+    width: 40px; 
+    height: 40px; 
+    display: block;
+}
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    font-size: larger;
+    text-align: center;
+    line-height: 280%;
+    color: #E5D8FF;
+}
+
+#item1{
+    height: 145px;
+    width: 200px;
+    border-radius: 5%;
+    background-color: #929DFF;
+}
+
+#item2{
+    height: 145px;
+    width: 200px;
+    border-radius: 5%;
+    background-color: #734CF2;
+    
+}
+
+#item3{
+    height: 145px;
+    width: 200px;
+    border-radius: 5%;
+    background-color:#D288FF;
+}
+
+#item4{
+    height: 145px;
+    width: 200px;
+    border-radius: 5%;
+    background-color: #000000;
+}
+
+.portfolio{
+    display: flex;
+    gap :30px;
+    background-color: #483EFF;
+    padding: 30px;
+    margin: 11%;
+    border: #483EFF ;
+    border-radius: 1%;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 200px;
+    gap: 80px;
+}
+
+.sidebar-btn{
+    background-color: #483EFF;
+    height: 130px;
+    width: 350px;
+    border: white double 5px;
+    border-radius: 8%;
+    font-size: 35px;
+    color: white;
+}
+
+.content{
+    width: 90%;
+    margin-left: 250px;
+    margin-top: 50px;
+    border: white solid 5px;
+    background-color: whitesmoke;
+    color:  #04285A;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5%;
+    align-content: center;
+}
+
+h2{
+    font-size: 36px;
+    align-content: left;
+}
+.next-btn{
+    margin-top: 550px;
+    background-color: #000000;
+    color: wheat;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+.customer_care{
+    position: static;
+    margin-left: 90%;
+    margin-top: 0%;
+    background-color: white;
+    border-radius: 50%;
+}
